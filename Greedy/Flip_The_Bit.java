@@ -4,6 +4,20 @@ import java.util.*;
 /*
 Boundary Element pattern
 Remember- one toggle remembers one boundary, confused? lets discuss....
+Always when question says you can toggle the bit-think about boundary pattern
+Boundary is when the adjacent elements have different bits.
+ex-
+0 1 2 3
+1 0 1 1
+
+here boundary are-0 and 1, 1 and 2
+so if my intention is to make all the elements of the array equal to 1, by flipping all elements from that element 
+which is 0 (index 1) in this case to the end of the array, then -
+1 0 1 1 -> 1 1 0 0 -> 1 1 1 1 ->2 operations right? (2 boundaries so 2 operations)
+which means 1 operation resolves only one boundary
+so our target is to resolve all the boundaries, and also in this problem, in one operation you can resolve boundary 
+in the left and right of the pivot.
+So the ans becomes max(left,right)
  */
 public class Flip_The_Bit {
     public static void main(String[] args) throws IOException {
