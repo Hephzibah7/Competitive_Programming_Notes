@@ -1,7 +1,7 @@
 import java.io.*;
 import java.util.*;
 /*
-
+Note-Pattern-calculate maximum valid pairs and substact with the length of the given string to get minimum operations
 Digit_String is a greedy problem where we have to find the minimum number of operations to make 
 the string beautiful. A string is beautiful if we we cannot choose any subsequences from the string
 such that it is divisible by 4.
