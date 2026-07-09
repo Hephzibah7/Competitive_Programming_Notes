@@ -1,3 +1,4 @@
+package r1000.String;
 import java.io.*;
 import java.util.*;
 
