@@ -1,7 +1,10 @@
 import java.io.*;
 import java.util.*;
 
-public class Main {
+/*
+https://codeforces.com/contest/2246/problem/C
+*/
+public class OmarAndAlternatingSum {
 
     static final long MOD = 1000000007L;
 
