@@ -5,7 +5,7 @@ public class template {
        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
        int t=Integer.parseInt(br.readLine());
         while(t-- >0){
-         
+        
 
         }
        
