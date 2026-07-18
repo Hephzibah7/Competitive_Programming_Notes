@@ -1,4 +1,4 @@
-
+package r1000.PrefixSum;
 import java.io.*;
 import java.io.IOException;
 
