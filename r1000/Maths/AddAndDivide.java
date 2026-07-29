@@ -26,7 +26,7 @@ public class AddAndDivide {
                 int temp=b+i;
                 int copy=a;
                 int x=0;
-                while(copy>0){
+                while(copy>0){ //manually dividing is better than using maths.log since it gives appropriate values for some and wrong for some
                     copy=copy/temp;
                     x++;
                 }
