@@ -1,4 +1,4 @@
-// package r1000.String;
+package r1000.String;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -3,7 +3,11 @@ package r1000.Maths;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-
+/*
+How can you maximize the area of a triangle given the constraints that is the two points forming the base should from one side
+so you can maximize the base by taking two afar points in an axis, and for the height you can the corresponding
+opposite x or y axis
+*/
 public class TrianglesOnRectangle {
      public static void main(String[] args) throws IOException {
        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
