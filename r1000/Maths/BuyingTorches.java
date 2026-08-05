@@ -4,6 +4,19 @@ https://codeforces.com/problemset/problem/1418/A
 Derive the formula-
 So,
 number of trades= ((((y+1)*k)-1)/(x-1))+k
+
+New formula-
+If you want ceil value of (5/3), 
+if you do-
+int x=Math.ceil(5/3), ->x=2
+Because java first perfomrs integer division, then converts to math ceil
+
+Solution 1-
+int x=Math.ceil((doubel)5/3), ->x=3
+Either type cast one of the operand to double or
+
+Solution 2-
+int x=(a+b-1)/b ->x=3
 */
 package r1000.Maths;
 
