@@ -23,29 +23,23 @@ public class FairNumbers {
        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
        int t=Integer.parseInt(br.readLine());
         while(t-- >0){
-            String str=br.readLine();
-            BigInteger b=new BigInteger(str);
+            long num=Long.parseLong(br.readLine());
             while(true){
-                if(check(String.valueOf(b))==true) break;
-                b=b.add(BigInteger.ONE);
-            
+                if(check(num)==true) break;
+                num++;
             }
-            System.out.println(b);
+            System.out.println(num);
 
         }
        
     }
-    static boolean check(String str){
-        int n=str.length();
-        boolean temp=true;
-        BigInteger b=new BigInteger(str);
-        for(int i=0; i<n; i++){
-            int val=str.charAt(i)-'0';
-            if(val!=0 && !(b.mod(BigInteger.valueOf(val)).equals(BigInteger.ZERO))) {
-                temp=false;
-                break;
-            } 
-        }
-        return temp;
+    static boolean check(long num){
+       long temp=num;
+       while(temp>0){
+        int d=(int)(temp%10);
+        if(d!=0 && num%d!=0) return false;
+        temp=temp/10;
+       }
+       return true;
     }
 }
