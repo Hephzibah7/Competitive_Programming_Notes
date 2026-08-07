@@ -23,13 +23,12 @@ public class MoveBrackets {
             int n=Integer.parseInt(br.readLine());
             String str=br.readLine();
             int ans=0;
-            int countopening=0;
-            int countclosing=0;
+            int balance=0;
             for(int i=0; i<n; i++){
                 char ch=str.charAt(i);
-                if(ch=='(') countopening++;
-                else countclosing++;
-                if(countopening<countclosing) ans=Math.max(ans,countclosing-countopening);
+                if(ch=='(') balance++;
+                else balance--;
+                if(balance<0) ans++;
             }
             System.out.println(ans);
 
