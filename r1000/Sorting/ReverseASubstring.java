@@ -2,6 +2,11 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.*;
+
+/*
+Thing to observe while comparing two stringbuilder equality, doesnt work, so you need to convert stringbuilder to string
+in order to check for equality
+*/
 public class ReverseASubstring {
      public static void main(String[] args) throws IOException {
        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
