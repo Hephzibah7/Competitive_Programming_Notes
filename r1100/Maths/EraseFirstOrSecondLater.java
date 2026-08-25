@@ -1,4 +1,12 @@
-// package r1100;
+package r1100.Maths;
+/*
+Question asks to count the number of distinct strings.
+And we are given possible operations.
+Through possible operations -> we can have different sequence
+We dont have to count different sequences we have to count this sequences producing different strings
+so what kind of sequences produce same strings?
+
+ */
 
 import java.io.BufferedReader;
 import java.io.IOException;
