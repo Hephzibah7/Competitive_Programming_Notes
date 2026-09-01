@@ -13,7 +13,7 @@ lets take this combination= 0,1,2,3=max(1,3,1)=3
 
 so 0=00, 1=01, 2=10, 3=11, here the highest checked bit is 1, and so 2^1=2, so the max xor will never be less than 2,
 but we have to make sure such that the xor does not get greater than 2^k,
-group 1=where the highest bit here bit 1 is bot checked (0,1)
+group 1=where the highest bit here bit 1 is bit checked (0,1)
 group 2=where the highest bit that is bit 1 is checked (2,3)
 so you can rearrange group 1 and 2 anyhow but, where pairing group 1 and group 2,
 always keep 0,2^k, here 0,2 together such that the max xor is 2
