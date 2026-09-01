@@ -25,7 +25,8 @@ public class CollectingGame {
                 prefix[i] = prefix[i + 1] + temp.get(i);
             int k = n - 2;
             int j = k - 1;
-           
+           //map instead of an array since [40,40,40] the last 40 will have 0 initially right? since we are not considering all 40s,
+           //so use a map instead of an array to store the ans of the last occurence of duplicate values
             HashMap<Long, Long> map=new HashMap<>();
              map.put(temp.get(n-1),0L);
             for (int i = n - 2; i >= 0; i--) {
