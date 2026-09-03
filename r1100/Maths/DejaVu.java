@@ -1,4 +1,4 @@
-// package r1100.Maths;
+package r1100.Maths;
 
 import java.io.BufferedReader;
 import java.io.IOException;
