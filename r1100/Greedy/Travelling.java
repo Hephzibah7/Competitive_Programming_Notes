@@ -1,6 +1,10 @@
 import java.io.*;
 import java.util.*;
-
+/*
+if going from a to b, a->b is better than a->s->b, where s is a major city or ordinary city
+Taking direct route is always better
+But what if a->s s->t t->b where s and t are major cities, this can also be possible minimum route                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+*/
 public class Travelling {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
