@@ -1,5 +1,6 @@
-// package r1100.BitManipulation;
+ package r1100.BitManipulation;
 /*
+Imp Observation
 Observe the bitwise OR: if a bit of the knowledge changes to 1
 , it will never become 0
 .
